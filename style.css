@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  background-color: #f3f4f6;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 400px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  text-align: center;
+}
+
+h1 {
+  color: #4a90e2;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+form p {
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 2px solid #ddd;
+  transition: border-color 0.3s;
+}
+
+input[type="text"]:focus {
+  border-color: #4a90e2;
+  outline: none;
+}
+
+button {
+  width: 100%;
+  padding: 12px 0;
+  font-size: 20px;
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #357abf;
+}
+
+#results {
+  font-size: 28px;
+  color: #333;
+  margin-top: 20px;
+}
+
+#weight-guide {
+  margin-top: 40px;
+  text-align: left;
+}
+
+#weight-guide h3 {
+  color: #4a90e2;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+#weight-guide p {
+  font-size: 18px;
+  color: #333;
+}
+
+p {
+  font-size: 16px;
+  color: #666;
+}
